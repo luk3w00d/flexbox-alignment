@@ -19,9 +19,19 @@ h1 {
 }
 
 article {
+  flex: 1 150px;
   padding: 10px;
   margin: 10px;
   background: aqua;
 }
 
+article:nth-of-type(2) {
+  flex: 2 300px;
+}
+
 /* Add your flexbox CSS below here */
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
